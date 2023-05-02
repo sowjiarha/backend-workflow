@@ -7,7 +7,7 @@
 #}
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "aowjiexampleterraform-project-name-bootstrap-terraform-state"
+  bucket = "sowjiexample2terraform-project-name-bootstrap-terraform-state"
 
   versioning {
     enabled = true
