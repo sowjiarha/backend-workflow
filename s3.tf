@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "admin-dev" {
-  // Our bucket's name is going to be the same as our site's domain name.
+  // Ourr bucket's name is going to be the same as our site's domain name.
   bucket = "${var.bucketName}"
 }
 
